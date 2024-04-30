@@ -22,8 +22,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "ZigzagOfwModule",
-            url: "https://github.com/adison-ads/adison-ofw-module-zigzag-ios/releases/download/0.10.12/ZigzagOfwModule.zip",
-            checksum: "412f2e8bd31fd1fa7a77a0662423360c07739c6d3793c793d846f997e8a914db"
+            url: "https://github.com/adison-ads/adison-ofw-module-zigzag-ios/releases/download/0.10.14/ZigzagOfwModule.zip",
+            checksum: "4e93ef98ac95d61f752f455aea9cea3f6c969a8ec9208bd00fd5d6e89fe720a0"
         ),
         .target(
             name: "ZigzagOfwModuleTarget",
