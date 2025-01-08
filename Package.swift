@@ -15,15 +15,15 @@ let package = Package(
             targets: ["ZigzagOfwModule", "ZigzagOfwModuleTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "3.5.18")
+        .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "3.9.2")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "ZigzagOfwModule",
-            url: "https://github.com/adison-ads/adison-ofw-module-zigzag-ios/releases/download/1.3.2/ZigzagOfwModule.zip",
-            checksum: "7753e23e5c848c58afed0dcff7352db7e0d25c6ed946c0a19d93ba46ccb2900d"
+            url: "https://github.com/adison-ads/adison-ofw-module-zigzag-ios/releases/download/1.4.0/ZigzagOfwModule.zip",
+            checksum: "7127a30e1b4a3055129df5c3e8fac3a4ce4d8c76f72781b99bb21ddee446774b"
         ),
         .target(
             name: "ZigzagOfwModuleTarget",
